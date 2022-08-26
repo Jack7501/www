@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    color: #FFD400;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header {
+    background-color: #6A9F9F;
+   padding: 24px;
+   display: flex;
+   align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    width: 69px;
+    height: 69px;
+    margin-right: 12px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #FFD400;
+}
+
+nav {
+    padding: 12px 12px 12px 20px;
+    border-bottom: 1px solid #F1F3F4;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #E6F4A8;
+}
+
+nav li:first-child{
+    margin-right: 1.2em;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover {
+   color: #00AAFF;
+}
+
+main section{
+    max-width: 960px;
+    margin: 0 auto 30px;
+}
+
+main p{
+    font-size: 16px;
+    color: #210707;
+    line-height: 1.5em;
+}
+
+.about-us .content{
+    margin-bottom: 10px;
+}
+
+.about-us .location{
+    text-align: center;
+}
+
+.location img {
+    margin-top: 10px;
+}
+
+.about-us .open-time {
+    font-size: 24px;
+    text-align: center;
+    background-color: #00AAFF;
+    color: #FFF;
+    margin: 10px 0 30px;
+}
+
+.who-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.who-item {
+    width: 30%;
+    text-align: center;
+}
+
+.who-item img{
+    width: 200px;
+}
+
+.who-item p {
+    text-align: left;
+}
+
+.service {
+    text-align: center;
+}
+
+.service a:hover{
+    color: #00AAFF;
+}
+
+.service .booking-button{
+    margin-top: 12px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #E6F4A8;
+}
+
+form {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 20px;
+}
+
+form .form-input{
+    width: 480px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+form .time-input p{
+    display: flex;
+    align-items: center;
+}
+
+.time-input p label{
+    width: 80px;
+}
+
+form input {
+    height: 40px;
+}
+
+form input[type=text] {
+    width: 200px;
+}
+
+form select {
+    height: 40px;
+}
+
+form label {
+    width: 120px;
+    text-align: right;
+    margin-right: 12px;
+}
+
+form .advice{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: #53bebe;
+}
+
+form .form-submit{
+    margin: 0 auto;
+}
+
+.form-submit input{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0 0 0;
+    background-color: aliceblue;
+}
